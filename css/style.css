@@ -1,0 +1,106 @@
+/* Header Section */
+
+body {
+    /*background-color: #000;*/
+    background-image: url("../img/tileable-metal-textures-4.jpg");
+}
+
+.logo-container {
+    width: 150px;
+    margin: 0px auto;
+
+}
+
+#dc-logo {
+    width: 125px;
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 170px;
+    border-bottom: 20px solid #000;
+    position: relative;
+    margin-top: -8px;
+}
+
+nav {
+    width: 80%;
+    margin: -25px auto 0px;
+    text-align: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav>ul>li {
+    display: inline;
+    padding: 20px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #0078f0;
+    font-family: futura;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 20px;
+}
+
+nav>ul>li>a:hover {
+    background-color: #0078f0;
+    color: #fff;
+    transition: .5s ease;
+}
+
+/* Hero Section */
+
+.banners-container {
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    height: 750px;
+    background-color: #fff;
+    margin: 0px auto;
+    width: 1200px;
+    /*background-image: url("../img/jl_background.jpg");*/
+}
+
+div>span>a>img {
+    margin: -375px 20px 0px;
+    float: left;
+    border-radius: 0px 0px 20px 20px;
+}
+
+div>span>a>img:hover {
+    margin-top: 0px;
+    transition: .5s ease;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #0078f0;
+    height: 75px;
+    clear: both;
+}
+
+footer span {
+    margin: 0px 20px;
+}
+
+.social-media {
+    text-align: center;
+    padding: 23px 0px;
+}
+
+.social-media .fa {
+    color: #fff;
+    font-size: 30px;
+}

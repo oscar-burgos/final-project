@@ -1,0 +1,44 @@
+/* About Hero Section */
+
+.about-hero {
+    background-image: url("../img/jl-superheroes.jpg");
+    height: 550px;
+}
+
+/* Colunm Section */
+
+.column {
+    width: 33.33%;
+    float: left;
+    padding: 0px 15px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    text-align: center;
+    height: 300px;
+}
+
+.column h3 {
+    color: #0078f0;
+    text-align: center;
+}
+
+.column p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.column button {
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    padding: 15px;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+}
+
+#col-2 {
+    border-left: 2px solid #0078f0;
+    border-right: 2px solid #0078f0;
+}
