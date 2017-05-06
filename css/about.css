@@ -2,7 +2,23 @@
 
 .about-hero {
     background-image: url("../img/jl-superheroes.jpg");
-    height: 550px;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.about-hero>h1 {
+    margin: 0px;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 25%;
+    left: 33.33%;
+    padding: 25px 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
 }
 
 /* Colunm Section */
@@ -10,12 +26,12 @@
 .column {
     width: 33.33%;
     float: left;
-    padding: 0px 15px;
+    padding: 0px 20px;
     position: relative;
     box-sizing: border-box;
-    margin: 20px 0px;
+    margin: 50px 0px;
     text-align: center;
-    height: 300px;
+    height: 250px;
 }
 
 .column h3 {
