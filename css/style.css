@@ -1,3 +1,19 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Exo:800|Open+Sans');
+
+/* Universals */
+h1 {
+    font-family: 'Exo', sans-serif;
+}
+
+h3 {
+    font-family: 'Exo', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Header Section */
 
 body {
@@ -44,7 +60,7 @@ nav>ul>li {
 nav>ul>li>a {
     text-decoration: none;
     color: #0078f0;
-    font-family: futura;
+    font-family:  'Exo', sans-serif;
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px 5px 0px 0px;
@@ -69,7 +85,9 @@ nav>ul>li>a:hover {
     background-color: #fff;
     margin: 0px auto;
     width: 1200px;
-    /*background-image: url("../img/jl_background.jpg");*/
+    background-image: url("../img/jl_background.jpg");
+    background-size: contain;
+
 }
 
 div>span>a>img {
