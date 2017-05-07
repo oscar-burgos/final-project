@@ -43,7 +43,7 @@ header {
 
 nav {
     width: 80%;
-    margin: -25px auto 0px;
+    margin: -27px auto 0px;
     text-align: center;
 }
 
@@ -77,16 +77,18 @@ nav>ul>li>a:hover {
 
 .banners-container {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/blue-background.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .hero {
     text-align: center;
     height: 750px;
-    background-color: #fff;
     margin: 0px auto;
     width: 1200px;
-    background-image: url("../img/jl_background.jpg");
-    background-size: contain;
 
 }
 
@@ -95,12 +97,22 @@ div>span>a>img {
     float: left;
     border-radius: 0px 0px 20px 20px;
     box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7)
 }
 
 div>span>a>img:hover {
     margin-top: 0px;
     transition: .5s ease;
 }
+
+/*.call-to-action {
+    clear: both;
+    margin-top: 0px;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}*/
 
 /* Footer Section */
 
