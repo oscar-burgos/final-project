@@ -6,22 +6,60 @@ section {
     box-sizing: border-box;
 }
 
-/* Map Section */
-.map-wrapper iframe {
-    width: 550px;
-    height: 460px;
-    margin: 0px auto;
-    display: block; 
+/* Contact Form Section */
+.contact-heading {
+    width: 100%;
+    height: 75px;
+    background-color: #0078f0;
+    border-bottom: 10px solid #000;
+    border-radius: 15px 15px 0px 0px;
 }
 
-/* Contact Form Section */
+.contact-heading h2 {
+    margin: 0px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+section img {
+    width: 100%;
+}
 .contact-form-wrapper {
-    padding-left: 100px;
-    border-left: 2px solid #0078f0;
+    padding: 0px 100px;
+    border-right: 2px solid #0078f0;
 }
 
 .contact-form-wrapper iframe {
     width: 100%;
-    height: 560px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+/* Map Section */
+.map-heading {
+    width: 100%;
+    height: 75px;
+    background-color: #0078f0;
+    border-bottom: 10px solid #000;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.map-heading h2 {
+    margin: 0px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.map-wrapper {
+    padding: 0px 100px;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 500px;
     margin: 0px auto;
 }
